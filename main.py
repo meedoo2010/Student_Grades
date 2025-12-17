@@ -219,19 +219,19 @@ def main(page: Page):
         page.update()
 
     # الحقول
-    name = TextField(label="اسم الطالب", icon=Icons.PERSON, rtl=True, height=38)
-    email = TextField(label="البريد الالكتروني", icon=Icons.EMAIL, rtl=True, height=38)
-    phone = TextField(label="هاتف الطالب", icon=Icons.PHONE, rtl=True, height=38)
-    address = TextField(label="العنوان او السكن", icon=Icons.LOCATION_CITY, rtl=True, height=38)
+    name = TextField(label="اسم الطالب", icon=Icons.PERSON, rtl=True)
+    email = TextField(label="البريد الالكتروني", icon=Icons.EMAIL, rtl=True)
+    phone = TextField(label="هاتف الطالب", icon=Icons.PHONE, rtl=True)
+    address = TextField(label="العنوان او السكن", icon=Icons.LOCATION_CITY, rtl=True)
 
     # العلامات
     mark1 = Text("علامات الطالب", text_align='center', width=390, size=17)
-    maths = TextField(label="رياضيات", width=110, rtl=True, height=38, keyboard_type=KeyboardType.NUMBER)
-    arabic = TextField(label="عربي", width=110, rtl=True, height=38, keyboard_type=KeyboardType.NUMBER)
-    german = TextField(label="الماني", width=110, rtl=True, height=38, keyboard_type=KeyboardType.NUMBER)
-    english = TextField(label="انجليزية", width=110, rtl=True, height=38, keyboard_type=KeyboardType.NUMBER)
-    draw = TextField(label="الرسم", width=110, rtl=True, height=38, keyboard_type=KeyboardType.NUMBER)
-    chemistrt = TextField(label="كيمياء", width=110, rtl=True, height=38, keyboard_type=KeyboardType.NUMBER)
+    maths = TextField(label="رياضيات", width=110, rtl=True, keyboard_type=KeyboardType.NUMBER)
+    arabic = TextField(label="عربي", width=110, rtl=True, keyboard_type=KeyboardType.NUMBER)
+    german = TextField(label="الماني", width=110, rtl=True, keyboard_type=KeyboardType.NUMBER)
+    english = TextField(label="انجليزية", width=110, rtl=True, keyboard_type=KeyboardType.NUMBER)
+    draw = TextField(label="الرسم", width=110, rtl=True, keyboard_type=KeyboardType.NUMBER)
+    chemistrt = TextField(label="كيمياء", width=110, rtl=True, keyboard_type=KeyboardType.NUMBER)
     
     
     
