@@ -1,0 +1,9 @@
+[project]
+name = "Student Grades"
+version = "1.0.0"
+description = "Digital Student App"
+icon = "assets/icon.png"
+
+[tool.flet]
+app_name = "Student_Grades"
+app_id = "com.student.grades"
